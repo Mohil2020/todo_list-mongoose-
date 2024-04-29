@@ -16,6 +16,7 @@ exports.insertadmin = async(req,res)=>{
     })
 }
 //select=find
+// mohil
 
 exports.login = async(req,res)=>{
     var data = await admin.find({email: req.body.email});
